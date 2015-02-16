@@ -1,0 +1,8 @@
+<%= @chore.tasks %>
+
+<br>
+
+<%= @chore.due_date %>
+
+<%= link_to "Edit", edit_chore_path(@chore) %>
+<%= link_to "Delete", chore_path(@chore), method: "delete" %>

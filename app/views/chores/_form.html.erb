@@ -1,0 +1,14 @@
+<%= form_for @chore do |f| %>
+
+  <%= f.label :tasks %>
+  <%= f.text_field :tasks %>
+
+  <br>
+  <br>
+
+  <%= f.label :due_date %>
+  <%= f.text_field :due_date %>
+
+  <%= f.submit name_of_button%>
+
+<% end %>
